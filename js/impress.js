@@ -636,6 +636,8 @@ function loadImpress( document, window ) {
         }, 250), false);
         
     }, false);
+    
+    impress().init();
         
 }
 
