@@ -19,7 +19,7 @@
 /*jshint bitwise:true, curly:true, eqeqeq:true, forin:true, latedef:true, newcap:true,
          noarg:true, noempty:true, undef:true, strict:true, browser:true */
 
-(function ( document, window ) {
+function loadImpress( document, window ) {
     'use strict';
 
     // HELPER FUNCTIONS
@@ -522,12 +522,7 @@
     
     impress.supported = impressSupported;
     
-})(document, window);
-
-// EVENTS
-
-(function ( document, window ) {
-    'use strict';
+    // EVENTS
     
     // throttling function calls, by Remy Sharp
     // http://remysharp.com/2010/07/21/throttling-function-calls/
@@ -642,5 +637,5 @@
         
     }, false);
         
-})(document, window);
+}
 
