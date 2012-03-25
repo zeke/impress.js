@@ -10,6 +10,7 @@ class window.Step
       key = 'rotate-z' if key is 'rotateZ'
       key = 'transition-duration' if key is 'transitionDuration'
       
+      console.log "$('##{@id}').data(#{key}, #{value})"
       $("##{@id}").data(key, value)
       
 class window.Impress
